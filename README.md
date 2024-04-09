@@ -5,8 +5,9 @@ Finite State Machine for the TCP Connection Protocol
 ## Description
 
 This package implements a Finite State Machine for the TCP Connection Protocol.
-This state machine is built using Python with the help of the `transitions`
-package. For supported states and events see the lists below.
+This state machine is built using Python with the help of the
+[`transitions`](https://github.com/pytransitions/transitions) package. For
+supported states and events see the lists below.
 
 ### Supported states
 
