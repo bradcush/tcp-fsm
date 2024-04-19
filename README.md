@@ -52,6 +52,14 @@ pip install -r requirements.txt
 python state-machine.py
 ```
 
+The following format also works:
+
+``` sh
+echo "PASSIVE\nCLOSE" | python state-machine.py
+echo "PASSIVE CLOSE" | python state-machine.py
+cat test.txt | python state-machine.py
+```
+
 ## Using
 
 After running the above program, it will start waiting to accept input from
